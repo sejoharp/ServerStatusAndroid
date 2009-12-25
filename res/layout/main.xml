@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="30dip" android:layout_y="140dip" android:text="state:" android:id="@+id/stateLabel"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="130dip" android:text="" android:layout_y="140dip" android:id="@+id/stateTextView"></TextView>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="30dip" android:layout_y="200dip" android:text="free space:" android:id="@+id/freeSpaceLabel"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="130dip" android:text="unknown" android:layout_y="200dip" android:id="@+id/freeSpaceView"></TextView>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="210dip" android:layout_y="300dip" android:text="Abort" android:id="@+id/abortButton"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_x="30dip" android:layout_y="300dip" android:text="ActionButton" android:id="@+id/actionButton"></Button>
+</AbsoluteLayout>
